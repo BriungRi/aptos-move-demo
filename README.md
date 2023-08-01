@@ -44,6 +44,15 @@ aptos move publish --package-dir move_demo --named-addresses move_demo=<profile-
 aptos move publish --package-dir move_demo --named-addresses move_demo=0x$(aptos config show-profiles | jq -r '.Result.<profile-name>.account') --profile=<profile-name>
 ```
 
+Running the web app
+
+```
+cd app
+yarn
+yarn dev
+# Try opening localhost:3000 in your browser now
+```
+
 ## Notes
 - package::module::{type|function}. package is an alias for the address
 - compiled code can be found in `build/` dir
