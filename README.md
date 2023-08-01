@@ -9,7 +9,7 @@ This is a demo move + nextjs app to create + update a non-unique name for your a
 - NodeJS + yarn for web dev
 - VSCode generally pretty good for web dev
 
-Optionally, [nix](https://nixos.org/download.html) for Aptos CLI and web dev tools with the `shell.nix`` file in this project
+Optionally, [nix](https://nixos.org/download.html) for Aptos CLI and web dev tools with the `shell.nix` file in this project
 
 ## Directory structure
 
