@@ -1,0 +1,13 @@
+[package]
+name = 'move_demo'
+version = '1.0.0'
+# `compatible` is default. `immutable` to disable upgrades
+upgrade_policy = "compatible"
+
+[addresses]
+move_demo = "_"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'framework-mainnet'
+subdir = 'aptos-move/framework/aptos-framework'
