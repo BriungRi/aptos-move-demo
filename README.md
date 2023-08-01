@@ -14,6 +14,7 @@ Optionally, [nix](https://nixos.org/download.html) for Aptos CLI and web dev too
 ## Directory structure
 
 Move code: `./move_demo`
+
 Website code: `./app`
 
 ## Commands
